@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+  
+}
+select,input{
+  padding: 8px;
+
+  border-radius: 3px;
+  background-color: white;
+ 
+}
+.down-border{
+  border-bottom-color: cyan ;
+
+ border-width: 0.5px;
+}
+.up-border{
+  border-top-color: cyan ;
+
+ border-width: 0.5px;
+}
+.form-wrapper{
+display: flex;
+flex-direction: column;
+justify-content: right;
+/* align-items: center; */
+border: 1px solid black;
+width: 50%;
+text-align: left;
+gap: 7px;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+}
+.sub-head{
+  opacity: 50%;
+}
+
+
+.ratio-part{
+  display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+}
+.btn{
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+
